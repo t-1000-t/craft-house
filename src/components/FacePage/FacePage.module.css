@@ -1,0 +1,20 @@
+.container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.blockImgUl {
+    max-width: 1158px;
+}
+
+.blockImgLi {
+    max-width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .blockImgUl {
+        padding: 15px;
+        max-width: 1158px;
+    }
+}

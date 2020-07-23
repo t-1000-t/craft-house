@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnIncrement {
+    width: 80px;
+    height: 25px;
+}
+
+.btnDecrement {
+    width: 80px;
+    height: 25px;
+}
+
+.styleValue {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}

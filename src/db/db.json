@@ -42,7 +42,8 @@
     },
     {
       "id": "0004",
-      "name": "Реквизиты:",
+      "name": "",
+      "requisite": "Реквизиты:",
       "title": "*************",
       "price": "",
       "url_full": "https://i.ibb.co/PmLn4qt/4-widt-out-logo.jpg",

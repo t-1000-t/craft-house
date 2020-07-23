@@ -6,15 +6,16 @@ import Flip from "react-reveal/Flip";
 const Cart = ({ note }) => {
   return (
     <div key={note.id} className={stylish.imgBoxCart}>
+      <h1 className={stylish.fontNameCart}>
+        {note.name}
+      </h1>
       <Flip left>
         <img className={stylish.imgCart} src={note.url_full} alt=""/>
       </Flip>
       <div>
-
-        <h1 className={stylish.fontNameCart}>
-          {note.name}
-        </h1>
-
+        <h2 className={stylish.fontRequisite}>
+          {note.requisite}
+        </h2>
         <ul className={stylish.ulPositionText}>
           <Bounce right>
             <li className={stylish.liPositionStyle1}>{note.title}</li>

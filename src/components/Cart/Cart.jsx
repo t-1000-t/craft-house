@@ -9,27 +9,29 @@ const Cart = ({ note }) => {
       <h1 className={stylish.fontNameCart}>
         {note.name}
       </h1>
-      <Flip left>
-        <img className={stylish.imgCart} src={note.url_full} alt=""/>
-      </Flip>
+      <div className={stylish.boxImgCart}>
+        <Flip left>
+          <img className={stylish.imgCart} src={note.url_full} alt=""/>
+        </Flip>
+      </div>
       <div>
         <h2 className={stylish.fontRequisite}>
           {note.requisite}
         </h2>
         <ul className={stylish.ulPositionText}>
           <Bounce right>
-            <li className={stylish.liPositionStyle1}>{note.title}</li>
-            <li className={stylish.liPositionStyle1}>{note.title1}</li>
-            <li className={stylish.liPositionStyle1}>{note.title2}</li>
-            <li className={stylish.liPositionStyle1}>{note.title3}</li>
-            <li className={stylish.liPositionStyle1}>{note.title4}</li>
-            <li className={stylish.liPositionStyle1}>{note.title5}</li>
-            <li className={stylish.liPositionStyle1}>{note.title6}</li>
-            <li className={stylish.liPositionStyle1}>{note.title7}</li>
-            <li className={stylish.liPositionStyle1}>{note.title8}</li>
-            <li className={stylish.liPositionStyle1}>{note.title9}</li>
-            <li className={stylish.liPositionStyle1}>{note.title10}</li>
-            <li className={stylish.liPositionStyle1}>{note.title11}</li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title1}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title2}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title3}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title4}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title5}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title6}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title7}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title8}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title9}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title10}</div></li>
+            <li className={stylish.liPositionStyle1}><div className={stylish.liAnimationStyle}>{note.title11}</div></li>
           </Bounce>
         </ul>
       </div>

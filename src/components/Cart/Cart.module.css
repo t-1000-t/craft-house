@@ -3,25 +3,23 @@
 }
 
 .imgCart {
+    display: flex;
     max-width: 100%;
     object-fit: cover;
+
+}
+
+.boxImgCart:hover {
+    transition: all 1s ease 0.1s;
+    transform: scale(1.08);
 }
 
 .fontNameCart {
     padding: 35px;
-    font-size: 36px;
-    font-family: "Times New Roman";
-    color: rgb(39, 61, 70);
-    line-height: 1.389;
-}
-
-
-.Donec_sed_odio_dui__Cras_mattis_consectetur_pur {
-    font-size: 36px;
     font-family: 'Roboto', sans-serif;
     color: rgb(39, 61, 70);
     line-height: 1.389;
-    text-align: center;
+    font-size: calc(24px + 11 * ((100vw - 320px) / 1158));
 }
 
 
@@ -32,6 +30,7 @@
     font-size: 24px;
     font-weight: 700;
     text-align: left;
+    color: #80b7b3;
 }
 
 .ulPositionText {
@@ -47,14 +46,19 @@
 
 .liPositionStyle1 {
     padding: 10px;
-    font-size: 24px;
     font-family: 'Roboto', sans-serif;
     color: rgba(39, 61, 70, 0.8);
     line-height: 1.667;
     font-weight: 400;
-    /*list-style-type: disc;*/
+    font-size: calc(18px + 5 * ((100vw - 320px) / 1158));
+    text-shadow: 5px -2px 11px #80B7B3;
 }
 
+.liAnimationStyle:hover {
+    transition: all 0.5s ease 0.1s;
+    transform: translate3D(10px, -5px, 10px);
+    text-shadow: 15px -7px 15px #80B7B3;
+}
 
 
 @media (min-width: 320px) and (max-width: 767px) {

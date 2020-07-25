@@ -1,4 +1,6 @@
 .App {
   text-align: center;
-  background: #e8e8e8;
+  /*background: #e8e8e8;*/
+  /* background: rgba(212, 212, 212, 0.568); */
+  background: rgba(232, 244, 255, 0.5);
 }

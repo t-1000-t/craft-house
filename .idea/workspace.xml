@@ -64,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/db/db.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="107">
               <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -89,12 +98,12 @@
         <option value="$PROJECT_DIR$/src/App/App.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/FacePage/FacePage.jsx" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/FacePage/FacePage.module.css" />
         <option value="$PROJECT_DIR$/src/components/Cart/Cart.module.css" />
         <option value="$PROJECT_DIR$/src/App/App.module.css" />
         <option value="$PROJECT_DIR$/src/components/Cart/Cart.jsx" />
         <option value="$PROJECT_DIR$/src/db/db.json" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -221,12 +230,12 @@
       <updated>1595493803305</updated>
       <workItem from="1595493809990" duration="35501000" />
       <workItem from="1595581736918" duration="768000" />
-      <workItem from="1595688763349" duration="11613000" />
+      <workItem from="1595688763349" duration="11852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47882000" />
+    <option name="totallyTimeSpent" value="48121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -241,7 +250,7 @@
     <frame x="55" y="133" width="1225" height="557" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24936816" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24936816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -255,7 +264,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.125" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4528302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,13 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="116" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FacePage/FacePage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -376,8 +378,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/db/db.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="107">
           <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>

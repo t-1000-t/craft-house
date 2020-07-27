@@ -38,15 +38,18 @@
 
 .fontNameCart2 {
     display: flex;
-    justify-content: right;
+    /*justify-content: right;*/
+
     width: 30%;
-    padding-left: 3%;
+    padding-left: 20%;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     color: rgb(39, 61, 70);
     line-height: 1.389;
     font-size: calc(16px + 9 * ((100vw - 320px) / 1158));
     /*text-shadow: 2px 2px 2px #575048;*/
+
+    /*background-color: gray;*/
 }
 
 .fontNameCart3 {
@@ -56,6 +59,8 @@
     padding-left: 1.8%;
     font-size: calc(16px + 9 * ((100vw - 320px) / 1158));
     /*font-size: 18px*/
+
+    /*background-color: palegoldenrod;*/
 }
 
 .textCart1 {
@@ -78,7 +83,7 @@
 .blockTwoText1 {
     display: inline-block;
     text-align: left;
-    line-height: 1.2;
+    line-height: 1.215;
     padding: 3%;
 
     font-family: "Roboto", sans-serif;
@@ -91,7 +96,8 @@
 .blockTwoText2 {
     display: inline-block;
     text-align: left;
-    line-height: 1.26;
+    line-height: 1.3;
+
     padding: 3%;
 
     font-family: "Roboto", sans-serif;
@@ -136,11 +142,50 @@
 /*text-shadow: 15px -7px 15px #80B7B3;*/
 /*}*/
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 359px) {
+    .fontNameCart2 {
+        padding-left: 17%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 499px) {
+    .fontNameCart2 {
+        padding-left: 12%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+    .fontNameCart2 {
+        padding-left: 19.3%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .fontNameCart2 {
+        padding-left: 17.3%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+    .fontNameCart2 {
+        padding-left: 18.3%;
+    }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .fontNameCart2 {
+        padding-left: 21.3%;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1599px) {
+    .fontNameCart2 {
+        padding-left: 21.3%;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1800px) {
+    .fontNameCart2 {
+        padding-left: 20.5%;
+    }
 }

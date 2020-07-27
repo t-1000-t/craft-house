@@ -10,24 +10,45 @@ const Cart = ({ note }) => {
         {note.name0 && <h1 className={stylish.fontNameCart}>
           {note.name0}
         </h1>}
-        {note.name1 && <h3>{note.name1}</h3>}
+        {note.name1 && <h3 className={stylish.fontNameCart1}>{note.name1}</h3>}
 
+        {note.name2 && note.name3 && <div className={stylish.boxfontNameCart_23}>
+          {note.name2 && <h1 className={stylish.fontNameCart2}>
+            {note.name2}
+          </h1>}
+          {note.name3 && <h3 className={stylish.fontNameCart3}>{note.name3}</h3>}
+        </div>}
         <div className={stylish.boxImgCart}>
           <img className={stylish.imgCart} src={note.url_full} alt=""/>
         </div>
         {/* Start cart 1 */}
-        {note.text && <p><b>{note.text}</b>&nbsp;{note.text1}<b>{note.text2}</b>{note.text3}</p>}
+        {note.text &&
+        <p className={stylish.textCart1}><b>{note.text}</b>&nbsp;{note.text1}<b>{note.text2}</b>{note.text3}</p>}
         {/* Start cart 2 */}
-        {note.twoText && <p>
-          <b>{note.twoText}</b>&nbsp;{note.twoText1}
-          <b>{note.twoText2}</b>{note.twoText3}
-          <b>{note.twoText4}</b>&nbsp;{note.twoText5}
-          <b>{note.twoText6}</b>{note.twoText7}
-          <b>{note.twoText8}</b>&nbsp;{note.twoText9}
-          <b>{note.twoText10}</b>{note.twoText11}
-          <b>{note.twoText12}</b>&nbsp;{note.twoText13}
-          <b>{note.twoText14}</b>{note.twoText15}
+        {note.twoText && <p className={stylish.boxTwoText}>
+          <div className={stylish.blockTwoText1}>
+            <b>{note.twoText}</b>&nbsp;<br/>
+            <b>{note.twoText2}</b>&nbsp;<br/>
+            <b>{note.twoText4}</b>&nbsp;<br/>
+            <b>{note.twoText6}</b>&nbsp;<br/>
+            <b>{note.twoText8}</b>&nbsp;<br/>
+            <b>{note.twoText10}</b>&nbsp;<br/>
+          </div>
+          <div className={stylish.blockTwoText2}>
+            {note.twoText1}<br/>
+            {note.twoText3}<br/>
+            {note.twoText5}<br/>
+            {note.twoText7}<br/>
+            {note.twoText9}<br/>
+            {note.twoText11}<br/>
+          </div>
         </p>}
+        <br/>
+        {note.twoText12 && <p>{note.twoText12}</p>} {note.twoText12 && <br/>}
+        {note.twoText13 && <p>{note.twoText13}</p>} {note.twoText12 && <br/>}
+        {note.twoText14 && <p>{note.twoText14}</p>} {note.twoText12 && <br/>}
+        {note.twoText15 && <p>{note.twoText15}</p>} {note.twoText12 && <br/>}
+
         {/* Start cart 3 */}
         {note.threeText1 && <p>
           {note.threeText1}<br/>

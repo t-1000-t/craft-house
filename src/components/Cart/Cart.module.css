@@ -1,11 +1,11 @@
 .imgBoxCart {
-  /*background-color: antiquewhite;*/
+    /*background-color: antiquewhite;*/
 }
 
 .imgCart {
-  display: flex;
-  max-width: 100%;
-  object-fit: cover;
+    display: flex;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 /* .boxImgCart:hover {
@@ -14,41 +14,120 @@
 } */
 
 .fontNameCart {
-  padding: 35px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(39, 61, 70);
-  line-height: 1.389;
-  font-size: calc(24px + 11 * ((100vw - 320px) / 1158));
-  /*text-shadow: 2px 2px 2px #575048;*/
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(39, 61, 70);
+    line-height: 1.389;
+    font-size: calc(24px + 11 * ((100vw - 320px) / 1158));
+    /*text-shadow: 2px 2px 2px #575048;*/
+}
+
+.fontNameCart1 {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
+    /*font-size: 18px*/
+}
+
+.boxfontNameCart_23 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 4%;
+}
+
+.fontNameCart2 {
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    padding-left: 3%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: rgb(39, 61, 70);
+    line-height: 1.389;
+    font-size: calc(16px + 9 * ((100vw - 320px) / 1158));
+    /*text-shadow: 2px 2px 2px #575048;*/
+}
+
+.fontNameCart3 {
+    display: flex;
+    justify-content: left;
+    width: 70%;
+    padding-left: 1.8%;
+    font-size: calc(16px + 9 * ((100vw - 320px) / 1158));
+    /*font-size: 18px*/
+}
+
+.textCart1 {
+    display: inline-block;
+    padding: 20px;
+    line-height: 1.800;
+    width: 90%;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    /*font-size: 17px;*/
+    font-size: calc(11px + 6 * ((100vw - 320px) / 1158));
+}
+
+.boxTwoText {
+    display: flex;
+    justify-content: center;
+}
+
+.blockTwoText1 {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.2;
+    padding: 3%;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    /*font-size: 17px;*/
+    font-size: calc(7px + 10 * ((100vw - 320px) / 1158));
+
+}
+
+.blockTwoText2 {
+    display: inline-block;
+    text-align: left;
+    line-height: 1.26;
+    padding: 3%;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    /*font-size: 16px;*/
+    font-size: calc(7px + 9 * ((100vw - 320px) / 1158));
+
 }
 
 .fontRequisite {
-  padding: 35px;
-  font-family: "Roboto", sans-serif;
-  line-height: 1;
-  font-size: 24px;
-  font-weight: 700;
-  text-align: left;
-  color: #80b7b3;
+    padding: 35px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #80b7b3;
 }
 
 .ulPositionText {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
 }
 
 .liPositionStyle1 {
-  padding: 10px;
-  font-family: "Roboto", sans-serif;
-  color: rgba(39, 61, 70, 0.8);
-  line-height: 1.667;
-  font-weight: 400;
-  font-size: calc(18px + 5 * ((100vw - 320px) / 1158));
-  /*text-shadow: 5px -2px 11px #80B7B3;*/
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    color: rgba(39, 61, 70, 0.8);
+    line-height: 1.667;
+    font-weight: 400;
+    font-size: calc(18px + 5 * ((100vw - 320px) / 1158));
+    /*text-shadow: 5px -2px 11px #80B7B3;*/
 }
 
 /*.liAnimationStyle:hover {*/

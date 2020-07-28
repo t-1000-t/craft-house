@@ -18,9 +18,9 @@ const Cart = ({ note }) => {
           </h1>}
           {note.name3 && <h3 className={stylish.fontNameCart3}>{note.name3}</h3>}
         </div>}
-        <div className={stylish.boxImgCart}>
+        {note.url_full && <div className={stylish.boxImgCart}>
           <img className={stylish.imgCart} src={note.url_full} alt=""/>
-        </div>
+        </div>}
         {/* Start cart 1 */}
         {note.text &&
         <p className={stylish.textCart1}><b>{note.text}</b>&nbsp;{note.text1}<b>{note.text2}</b>{note.text3}</p>}
@@ -43,29 +43,36 @@ const Cart = ({ note }) => {
             {note.twoText11}<br/>
           </div>
         </p>}
-        <br/>
-        {note.twoText12 && <p>{note.twoText12}</p>} {note.twoText12 && <br/>}
-        {note.twoText13 && <p>{note.twoText13}</p>} {note.twoText12 && <br/>}
-        {note.twoText14 && <p>{note.twoText14}</p>} {note.twoText12 && <br/>}
-        {note.twoText15 && <p>{note.twoText15}</p>} {note.twoText12 && <br/>}
+        {note.twoText && <br/>}
+        {note.twoText && <div className={stylish.boxTwoText2}>
+          {note.twoText12 && <p className={stylish.blockTwoText3}>{note.twoText12}</p>} {note.twoText12 && <br/>}
+          {note.twoText13 && <p className={stylish.blockTwoText4}>{note.twoText13}</p>} {note.twoText13 && <br/>}
+          {note.twoText14 && <p className={stylish.blockTwoText4}>{note.twoText14}</p>} {note.twoText14 && <br/>}
+          {note.twoText15 && <p className={stylish.blockTwoText4}>{note.twoText15}</p>} {note.twoText15 && <br/>}
+          {note.twoText16 && <p className={stylish.blockTwoText4}>{note.twoText16}</p>} {note.twoText16 && <br/>}
+          {note.twoText17 && <p className={stylish.blockTwoText4}>{note.twoText17}</p>} {note.twoText17 && <br/>}
+          {note.twoText18 && <p className={stylish.blockTwoText4}>{note.twoText18}</p>} {note.twoText18 && <br/>}
+        </div>}
 
         {/* Start cart 3 */}
-        {note.threeText1 && <p>
-          {note.threeText1}<br/>
-          {note.threeText2}
+        {note.threeText1 && <p className={stylish.textCart3}>
+          &nbsp;&nbsp;&nbsp;&nbsp;{note.threeText1}</p>}
+        {note.threeText1 && <br/>}
+        {note.threeText2 && <p className={stylish.textCart3}>
+          &nbsp;&nbsp;&nbsp;&nbsp;{note.threeText2}
         </p>}
-        {note.threeText3 && <h3>{note.threeText3}</h3>}
-        {note.threeText4 && <h3>{note.threeText4}</h3>}
-        {note.threeText5 && <p>
+        {note.threeText3 && <h3 className={stylish.textCart3Title}><b>{note.threeText3}</b></h3>}
+        {note.threeText4 && <h3 className={stylish.textCart3Title}>{note.threeText4}</h3>}
+        {note.threeText5 && <p className={stylish.boxTextCart3}>
           {note.threeText5}<br/>
           {note.threeText6}<br/>
           {note.threeText7}<br/>
           {note.threeText8}<br/>
           {note.threeText9}<br/>
         </p>}
-        {note.threeText10 && <h3>{note.threeText10}</h3>}
+        {note.threeText10 && <h3 className={stylish.textCart3Title}>{note.threeText10}</h3>}
         {note.threeText10 && <br/>}
-        {note.threeText11 && <p>
+        {note.threeText11 && <p className={stylish.boxTextCart3}>
           {note.threeText11}<br/>
           {note.threeText12}<br/>
           {note.threeText13}<br/>
@@ -73,13 +80,9 @@ const Cart = ({ note }) => {
           {note.threeText15}<br/>
           {note.threeText16}<br/>
         </p>}
-
-        {note.requisite && <div>
-          <h2 className={stylish.fontRequisite}>
-            {note.requisite}
-          </h2>
-        </div>}
       </div>}
+
+
     </>
   );
 };

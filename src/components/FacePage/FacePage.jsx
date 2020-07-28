@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import stylish from "./FacePage.module.css";
 import Cart from "../Cart/Cart";
+import FooterCraft from "../FooterCraft/FooterCraft";
 
 const FacePage = ({ base }) => (
 <div className={stylish.container}>
@@ -9,6 +10,7 @@ const FacePage = ({ base }) => (
     {base.map((elem) => (
       <li key={elem.id} className={stylish.blockImgLi}>
         <Cart note={elem}/>
+        <FooterCraft note={elem}/>
       </li>
     ))}
   </ul>

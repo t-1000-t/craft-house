@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import widthResize from "../services/widthResize";
+// import widthResize from "../services/widthResize";
 import stylish from "./App.module.css";
 import FacePage from "../components/FacePage/FacePage";
 
@@ -9,7 +9,7 @@ import FacePage from "../components/FacePage/FacePage";
 
 class App extends Component {
   componentDidMount() {
-    widthResize();
+    // widthResize();
   }
 
   render() {

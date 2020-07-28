@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.module.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -104,8 +104,8 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/FacePage/FacePage.jsx" />
         <option value="$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx" />
-        <option value="$PROJECT_DIR$/src/App/App.jsx" />
         <option value="$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.module.css" />
+        <option value="$PROJECT_DIR$/src/App/App.jsx" />
       </list>
     </option>
   </component>
@@ -221,12 +221,12 @@
       <workItem from="1595688763349" duration="11852000" />
       <workItem from="1595829148009" duration="7499000" />
       <workItem from="1595881343182" duration="3962000" />
-      <workItem from="1595918981268" duration="24431000" />
+      <workItem from="1595918981268" duration="24498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84013000" />
+    <option name="totallyTimeSpent" value="84080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -398,6 +391,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>

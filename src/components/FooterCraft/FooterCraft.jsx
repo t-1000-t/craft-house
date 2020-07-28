@@ -15,15 +15,15 @@ const FooterCraft = ({ note }) => {
           <div className={stylish.contactPhone}>
             {note.requisiteText && <p className={stylish.textRequisite}>{note.requisiteText}</p>}
             {note.requisiteText &&
-            <p className={stylish.textRequisite}><Icon icon={callOutline} color="#77bb42"/> 1234567890123</p>}
+            <p className={stylish.textRequisiteNumber}><Icon icon={callOutline} color="#77bb42"/> 1234567890123</p>}
             {note.requisiteText &&
-            <p className={stylish.textRequisite}><Icon icon={callOutline} color="#77bb42"/> 1234567890123</p>}
+            <p className={stylish.textRequisiteNumber}><Icon icon={callOutline} color="#77bb42"/> 1234567890123</p>}
             {note.requisiteText &&
-            <p className={stylish.textRequisite}><Icon icon={callOutline} color="#77bb42"/> 1234567890123</p>}
+            <p className={stylish.textRequisiteNumber}><Icon icon={callOutline} color="#77bb42"/> 1234567890123</p>}
           </div>
           <div className={stylish.contactPhone}>
             {note.requisiteText &&
-            <p className={stylish.textRequisite}>Также просьба заполнить анкету, с Вами обязательно свяжутся. </p>}
+            <p className={stylish.textRequisiteAnket}>Также просьба заполнить анкету, с Вами обязательно свяжутся. </p>}
           </div>
         </div>
         <button className={stylish.footerBtnFont}>Зполнить анкету</button>

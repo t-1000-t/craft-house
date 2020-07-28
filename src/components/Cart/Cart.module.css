@@ -87,7 +87,7 @@
 .blockTwoText1 {
     display: inline-block;
     text-align: left;
-    line-height: 1.215;
+    line-height: 1.3;
     padding: 3%;
 
     font-family: "Roboto", sans-serif;
@@ -100,7 +100,7 @@
 .blockTwoText2 {
     display: inline-block;
     text-align: left;
-    line-height: 1.3;
+    line-height: 1.31;
 
     padding: 3%;
 
@@ -147,7 +147,6 @@
     font-size: calc(7px + 7 * ((100vw - 320px) / 1158));
 
 }
-
 
 
 .textCart3 {
@@ -203,7 +202,6 @@
     /*font-size: 18px*/
 }
 
-
 @media (min-width: 320px) and (max-width: 359px) {
     .fontNameCart2 {
         padding-left: 17%;
@@ -214,6 +212,7 @@
     .fontNameCart2 {
         padding-left: 12%;
     }
+
 }
 
 @media (min-width: 500px) and (max-width: 599px) {
@@ -226,11 +225,17 @@
     .fontNameCart2 {
         padding-left: 17.3%;
     }
+    .blockTwoText2 {
+        line-height: 1.35;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .fontNameCart2 {
         padding-left: 18.3%;
+    }
+    .blockTwoText2 {
+        line-height: 1.35;
     }
 }
 
@@ -238,16 +243,25 @@
     .fontNameCart2 {
         padding-left: 21.3%;
     }
+    .blockTwoText2 {
+        line-height: 1.36;
+    }
 }
 
 @media (min-width: 1280px) and (max-width: 1599px) {
     .fontNameCart2 {
         padding-left: 21.3%;
     }
+    .blockTwoText2 {
+        line-height: 1.38;
+    }
 }
 
-@media (min-width: 1600px) and (max-width: 1800px) {
+@media (min-width: 1600px) {
     .fontNameCart2 {
         padding-left: 20.5%;
+    }
+    .blockTwoText2 {
+        line-height: 1.4;
     }
 }

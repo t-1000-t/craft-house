@@ -26,7 +26,7 @@ const FooterCraft = ({ note }) => {
             <p className={stylish.textRequisiteAnket}>Также просьба заполнить анкету, с Вами обязательно свяжутся. </p>}
           </div>
         </div>
-        <button className={stylish.footerBtnFont}>Зполнить анкету</button>
+        <button className={stylish.footerBtnFont}>Заполнить анкету</button>
       </footer>}
     </>
   );

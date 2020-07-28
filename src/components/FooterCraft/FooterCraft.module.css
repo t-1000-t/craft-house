@@ -42,7 +42,7 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     /*font-size: 21px;*/
-    font-size: calc(11px + 5 * ((100vw - 320px) / 1158));
+    font-size: calc(10px + 4 * ((100vw - 320px) / 1158));
 
     color: hsl(57, 90%, 66%);
     background-color: hsl(33, 24%, 33%);
@@ -56,7 +56,7 @@
 }
 
 .footerBtnFont:focus {
-    border: hsl(57, 48%, 51%) solid 5px;
+    border: hsl(57, 48%, 51%) solid 2px;
     /*padding: 2px;*/
     background-color: hsl(31, 10%, 57%);
     color: hsl(264, 100%, 99%);

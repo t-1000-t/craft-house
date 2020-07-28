@@ -7,7 +7,7 @@
     /*justify-content: space-between;*/
 
 
-    background-color: rgba(188, 224, 240, 0.51);
+    /*background-color: rgba(188, 224, 240, 0.51);*/
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -25,10 +25,14 @@
 
 
     line-height: 1.200;
+    /*font-family: "Roboto", sans-serif;*/
+    /*font-weight: 500;*/
+    /*font-size: calc(11px + 10 * ((100vw - 320px) / 1158));*/
+
+    /**/
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    /*font-size: 21px;*/
-    font-size: calc(11px + 10 * ((100vw - 320px) / 1158));
+    font-weight: 300;
+    font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
 }
 
 
@@ -42,13 +46,17 @@
 
 
     line-height: 1.200;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    /*font-size: 21px;*/
-    font-size: calc(10px + 4 * ((100vw - 320px) / 1158));
+    /*font-family: "Roboto", sans-serif;*/
+    /*font-weight: 400;*/
+    /*font-size: calc(10px + 4 * ((100vw - 320px) / 1158));*/
 
     color: hsl(57, 90%, 66%);
     background-color: hsl(33, 24%, 33%);
+
+    /**/
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
 }
 
 .footerBtnFont:hover {
@@ -69,10 +77,14 @@
     width: 100%;
 
     line-height: 1.400;
+    /*font-family: "Roboto", sans-serif;*/
+    /*font-weight: 400;*/
+    /*font-size: calc(11px + 10 * ((100vw - 320px) / 1158));*/
+
+    /**/
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    /*font-size: 21px;*/
-    font-size: calc(11px + 10 * ((100vw - 320px) / 1158));
+    font-weight: 300;
+    font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
 }
 
 .textRequisiteNumber {
@@ -80,20 +92,28 @@
     padding-top: 1.5%;
 
     line-height: 1.800;
+    /*font-family: "Roboto", sans-serif;*/
+    /*font-weight: 400;*/
+    /*font-size: calc(11px + 10 * ((100vw - 320px) / 1158));*/
+
+    /**/
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    /*font-size: 21px;*/
-    font-size: calc(11px + 10 * ((100vw - 320px) / 1158));
+    font-weight: 300;
+    font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
 }
 
 .textRequisiteAnket {
     width: 100%;
     text-align: center;
     line-height: 1.400;
+    /*font-family: "Roboto", sans-serif;*/
+    /*font-weight: 400;*/
+    /*font-size: calc(11px + 10 * ((100vw - 320px) / 1158));*/
+
+    /**/
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    /*font-size: 21px;*/
-    font-size: calc(11px + 10 * ((100vw - 320px) / 1158));
+    font-weight: 300;
+    font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
 }
 
 
@@ -124,101 +144,24 @@
     .footerBtnFont {
         border-radius: 12px;
         border: hsl(57, 48%, 51%) solid 4px;
-        font-size: calc(11px + 6 * ((100vw - 320px) / 1158));
+        /*font-size: calc(11px + 6 * ((100vw - 320px) / 1158));*/
+        /**/
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
     }
 
     .footerBtnFont:hover {
         border: #9c9287 solid 4px;
-        font-size: calc(11px + 6 * ((100vw - 320px) / 1158));
+        /*font-size: calc(11px + 6 * ((100vw - 320px) / 1158));*/
+
+        /**/
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
     }
 
     .footerBtnFont:focus {
         border: hsl(57, 48%, 51%) solid 4px;
     }
 }
-
-/*.footerCraft {*/
-/*display: flex;*/
-/*justify-content: space-between;*/
-
-/*background-color: rgba(188, 224, 240, 0.51);*/
-/*box-sizing: border-box;*/
-/*width: 100%;*/
-/*text-align: left;*/
-
-/*}*/
-
-/*.fontRequisite {*/
-/*display: flex;*/
-/*justify-content: center;*/
-/*align-items: center;*/
-/*width: 180px;*/
-/*height: 60px;*/
-
-
-/*margin: 3%;*/
-
-
-/*line-height: 1.200;*/
-/*font-family: "Roboto", sans-serif;*/
-/*font-weight: 500;*/
-/*!*font-size: 21px;*!*/
-/*font-size: calc(11px + 8 * ((100vw - 320px) / 1158));*/
-/*}*/
-
-/*.footerBtnFont {*/
-/*width: 180px;*/
-/*height: 60px;*/
-/*border-radius: 8px;*/
-/*border: hsl(57, 48%, 51%) solid 2px;*/
-
-/*margin: 3%;*/
-
-
-/*line-height: 1.200;*/
-/*font-family: "Roboto", sans-serif;*/
-/*font-weight: 400;*/
-/*!*font-size: 21px;*!*/
-/*font-size: calc(10px + 4 * ((100vw - 320px) / 1158));*/
-
-/*color: hsl(57, 90%, 66%);*/
-/*background-color: hsl(33, 24%, 33%);*/
-/*}*/
-
-/*.footerBtnFont:hover {*/
-/*border: #9c9287 solid 2px;*/
-/*!*padding: 2px;*!*/
-/*background-color: hsl(31, 10%, 57%);*/
-/*color: hsl(264, 100%, 99%);*/
-/*}*/
-
-/*.footerBtnFont:focus {*/
-/*border: hsl(57, 48%, 51%) solid 2px;*/
-/*!*padding: 2px;*!*/
-/*background-color: hsl(31, 10%, 57%);*/
-/*color: hsl(264, 100%, 99%);*/
-/*}*/
-
-/*.textRequisite {*/
-/*width: 90%;*/
-
-/*line-height: 1.400;*/
-/*font-family: "Roboto", sans-serif;*/
-/*font-weight: 400;*/
-/*!*font-size: 21px;*!*/
-/*font-size: calc(11px + 4 * ((100vw - 320px) / 1158));*/
-/*}*/
-
-/*.boxMiddleContact {*/
-/*display: flex;*/
-/*width: 100%;*/
-
-/*}*/
-
-/*.contactPhone  {*/
-/*display: flex;*/
-/*width: 55%;*/
-/*padding: 10px;*/
-/*justify-content: center;*/
-/*flex-direction: column;*/
-/*}*/

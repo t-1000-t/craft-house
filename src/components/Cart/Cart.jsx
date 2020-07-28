@@ -27,21 +27,27 @@ const Cart = ({ note }) => {
         {/* Start cart 2 */}
         {note.twoText && <p className={stylish.boxTwoText}>
           <div className={stylish.blockTwoText1}>
-            <b>{note.twoText}</b>&nbsp;<br/>
-            <b>{note.twoText2}</b>&nbsp;<br/>
-            <b>{note.twoText4}</b>&nbsp;<br/>
-            <b>{note.twoText6}</b>&nbsp;<br/>
-            <b>{note.twoText8}</b>&nbsp;<br/>
-            <b>{note.twoText10}</b>&nbsp;<br/>
+            {note.twoText}&nbsp;<br/>
+            {note.twoText2}&nbsp;<br/>
+            {note.twoText4}&nbsp;<br/>
+            {note.twoText6}&nbsp;<br/>
+            {note.twoText8}&nbsp;<br/>
+            {note.twoText10}&nbsp;<br/>
+            {/*<b>{note.twoText}</b>&nbsp;<br/>*/}
+            {/*<b>{note.twoText2}</b>&nbsp;<br/>*/}
+            {/*<b>{note.twoText4}</b>&nbsp;<br/>*/}
+            {/*<b>{note.twoText6}</b>&nbsp;<br/>*/}
+            {/*<b>{note.twoText8}</b>&nbsp;<br/>*/}
+            {/*<b>{note.twoText10}</b>&nbsp;<br/>*/}
           </div>
-          <div className={stylish.blockTwoText2}>
-            {note.twoText1}<br/>
-            {note.twoText3}<br/>
-            {note.twoText5}<br/>
-            {note.twoText7}<br/>
-            {note.twoText9}<br/>
-            {note.twoText11}<br/>
-          </div>
+          {/*<div className={stylish.blockTwoText2}>*/}
+            {/*{note.twoText1}<br/>*/}
+            {/*{note.twoText3}<br/>*/}
+            {/*{note.twoText5}<br/>*/}
+            {/*{note.twoText7}<br/>*/}
+            {/*{note.twoText9}<br/>*/}
+            {/*{note.twoText11}<br/>*/}
+          {/*</div>*/}
         </p>}
         {note.twoText && <br/>}
         {note.twoText && <div className={stylish.boxTwoText2}>

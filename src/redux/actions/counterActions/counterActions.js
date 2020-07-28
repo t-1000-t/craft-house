@@ -1,6 +1,8 @@
+import actionTypes from "../../../services/type/type";
+
 const increment = (value) => {
     return {
-        type: "INCREMENT",
+        type: actionTypes.INCREMENT,
         payload: {
             value: value
         }
@@ -9,11 +11,13 @@ const increment = (value) => {
 
 const decrement = (value) => {
     return {
-        type: "DECREMENT",
+        type: actionTypes.DECREMENT,
         payload: {
             value: value
         }
     }
 };
+
+
 
 export default {increment, decrement};

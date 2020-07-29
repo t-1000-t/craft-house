@@ -87,12 +87,6 @@ class FormAnket extends Component {
           кв. м.):
         </label>
         <br/>
-        <label>
-          Соглашаюсь с вышеописанной информацией:
-          <br/>
-          <input name="agreed" type="checkbox" value={areaFinish} checked={agreed} onChange={this.handleAgreedChange}/>
-        </label>
-        <br/>
         {/*Вода*/}
         <div role="group">
           Вода
@@ -152,6 +146,12 @@ class FormAnket extends Component {
             Да
           </label>
         </div>
+        <br/>
+        <label>
+          Соглашаюсь с вышеописанной информацией:
+          <br/>
+          <input name="agreed" type="checkbox" value={areaFinish} checked={agreed} onChange={this.handleAgreedChange}/>
+        </label>
         <br/>
         <button type="submit" disabled={!agreed}>Отправить</button>
       </form>

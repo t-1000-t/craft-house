@@ -6,6 +6,7 @@ import { Icon } from "@iconify/react";
 import callOutline from "@iconify/icons-ion/call-outline";
 import ModalAnketa from "../../modals/ModalAnketa";
 import anketAction from "../../redux/actions/anketAction/anketAction";
+import FormAnket from "../FormAnket/FormAnket";
 
 
 const FooterCraft = ({ note, onOpen, onOpenModal, onCloseModal }) => {
@@ -31,8 +32,9 @@ const FooterCraft = ({ note, onOpen, onOpenModal, onCloseModal }) => {
           </div>
         </div>
         <button className={stylish.footerBtnFont} onClick={onOpenModal}>Заполнить анкету</button>
-        {onOpen && <ModalAnketa onClose={onCloseModal}><p>ddfddfdfdddfdfd</p>
-          <button onClick={onCloseModal}>Close</button>
+        {onOpen && <ModalAnketa onClose={onCloseModal}>
+          <button type="button" onClick={onCloseModal}>Close</button>
+          <FormAnket />
         </ModalAnketa>}
       </footer>}
     </>

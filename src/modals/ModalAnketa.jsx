@@ -40,7 +40,7 @@ class ModalAnketa extends Component {
         className={stylish.backdrop}
         ref={this.backdropeRef}
         onClick={this.handlerBackDropClick}
-        role={presentation}
+        role="presentation"
       >
         <div className={stylish.modal}>{children}</div>
       </div>,

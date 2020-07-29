@@ -1,10 +1,14 @@
 import React from "react";
 import stylish from "../FooterCraft/FooterCraft.module.css";
+import { connect } from "react-redux";
 
 import { Icon } from "@iconify/react";
 import callOutline from "@iconify/icons-ion/call-outline";
+import ModalAnketa from "../../modals/ModalAnketa";
+import anketAction from "../../redux/actions/anketAction/anketAction";
 
-const FooterCraft = ({ note }) => {
+
+const FooterCraft = ({ note, onOpen, onOpenModal, onCloseModal }) => {
   return (
     <>
       {note.requisite && <footer className={stylish.footerCraft}>
@@ -26,10 +30,28 @@ const FooterCraft = ({ note }) => {
             <p className={stylish.textRequisiteAnket}>Также просьба заполнить анкету, с Вами обязательно свяжутся. </p>}
           </div>
         </div>
-        <button className={stylish.footerBtnFont}>Заполнить анкету</button>
+        <button className={stylish.footerBtnFont} onClick={onOpenModal}>Заполнить анкету</button>
+        {onOpen && <ModalAnketa onClose={onCloseModal}><p>ddfddfdfdddfdfd</p>
+          <button onClick={onCloseModal}>Close</button>
+        </ModalAnketa>}
       </footer>}
     </>
   );
 };
 
-export default FooterCraft;
+const mapStateToProps = (state) => {
+  return { onOpen: state.anketStatus };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onOpenModal: () => {
+      dispatch(anketAction.showModal());
+    },
+    onCloseModal: () => {
+      dispatch(anketAction.closeModal());
+    }
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(FooterCraft);

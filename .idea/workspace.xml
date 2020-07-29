@@ -14,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/MiddleFormAnket/MiddleFormAnket.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="119">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -25,20 +25,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/FormAnket/FormAnket.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/reducers/counterReducer/counterReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="834">
+              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,22 +47,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/FacePage/FacePage.jsx">
+        <entry file="file://$PROJECT_DIR$/src/redux/store/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/reducers/anketReducer/anketReducer.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/redux/reducers/addNoteReducer/addNoteReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="34">
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -78,42 +72,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/store/store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modals/ModalAnketa.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,28 +104,32 @@
         <option value="$PROJECT_DIR$/src/modals/anketa.jsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/redux/actions/counterActions/counterActions.js" />
-        <option value="$PROJECT_DIR$/src/services/type/type.js" />
         <option value="$PROJECT_DIR$/src/App/App.module.css" />
         <option value="$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.module.css" />
         <option value="$PROJECT_DIR$/src/db/db.json" />
         <option value="$PROJECT_DIR$/src/components/Cart/Cart.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Cart/Cart.jsx" />
         <option value="$PROJECT_DIR$/src/modals/ModalAnketa.jsx" />
         <option value="$PROJECT_DIR$/src/modals/ModalAnketa.module.css" />
         <option value="$PROJECT_DIR$/src/redux/actions/modalAnketAction/modalAnketAction.js" />
-        <option value="$PROJECT_DIR$/src/redux/reducers/dbReducer/dbReducer.js" />
-        <option value="$PROJECT_DIR$/src/redux/store/store.js" />
         <option value="$PROJECT_DIR$/src/redux/actions/anketAction/anketAction.js" />
         <option value="$PROJECT_DIR$/src/redux/reducers/anketReducer/anketReducer.js" />
+        <option value="$PROJECT_DIR$/src/services/type/type.js" />
+        <option value="$PROJECT_DIR$/src/redux/actions/addNote/addNote.js" />
         <option value="$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Cart/Cart.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/dbReducer/dbReducer.js" />
+        <option value="$PROJECT_DIR$/src/redux/actions/addNoteAction/addNoteAction.js" />
+        <option value="$PROJECT_DIR$/src/redux/store/store.js" />
         <option value="$PROJECT_DIR$/src/components/FormAnket/FormAnket.jsx" />
+        <option value="$PROJECT_DIR$/src/components/MiddleFormAnket/MiddleFormAnket.jsx" />
+        <option value="$PROJECT_DIR$/src/redux/reducers/addNoteReducer/addNoteReducer.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="30" />
     <option name="y" value="8" />
-    <option name="width" value="1299" />
+    <option name="width" value="1259" />
     <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -187,30 +149,27 @@
             <path>
               <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
               <item name="craft-house" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
               <item name="craft-house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
+              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
+              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Counter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
@@ -230,7 +189,8 @@
               <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
               <item name="craft-house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="MiddleFormAnket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
@@ -244,6 +204,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
               <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
+              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
+              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="redux" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
+              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
+              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="type" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,12 +278,12 @@
       <workItem from="1595829148009" duration="7499000" />
       <workItem from="1595881343182" duration="3962000" />
       <workItem from="1595918981268" duration="36982000" />
-      <workItem from="1596005644314" duration="20119000" />
+      <workItem from="1596005644314" duration="33306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116683000" />
+    <option name="totallyTimeSpent" value="129870000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,10 +295,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="8" width="1299" height="698" extended-state="0" />
+    <frame x="30" y="8" width="1259" height="698" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18715306" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1932842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -325,7 +312,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25132743" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23362832" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -371,13 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/type/type.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1667">
@@ -420,36 +400,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/reducers/dbReducer/dbReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Counter/Counter.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -463,20 +417,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/store/store.js">
+    <entry file="file://$PROJECT_DIR$/src/components/FormAnket/utils/create-notes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/type/type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/actions/anketAction/anketAction.js">
+    <entry file="file://$PROJECT_DIR$/src/components/FacePage/FacePage.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -487,10 +444,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/reducers/counterReducer/counterReducer.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/dbReducer/dbReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Counter/Counter.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,30 +494,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FacePage/FacePage.jsx">
+    <entry file="file://$PROJECT_DIR$/src/redux/actions/anketAction/anketAction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx">
+    <entry file="file://$PROJECT_DIR$/src/redux/actions/addNoteAction/addNoteAction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FormAnket/FormAnket.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+        <state relative-caret-position="834">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MiddleFormAnket/MiddleFormAnket.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducers/addNoteReducer/addNoteReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import shortid from "shortid";
 
 const Subscribe = {
   water: {
@@ -33,6 +34,7 @@ class FormAnket extends Component {
     agreed: false
   };
 
+
   handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -54,7 +56,13 @@ class FormAnket extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log("OK!");
+    const note = {
+      id: shortid.generate(),
+      date: new Date(),
+      initialValue: this.state
+    };
+
+    console.log("NOTE", note);
   };
 
 
@@ -91,12 +99,14 @@ class FormAnket extends Component {
         <div role="group">
           Вода
           <label>
-            <input name="subscriptionWater" type="radio" value={Subscribe.water.NO} checked={Subscribe.water.NO === subscriptionWater}
+            <input name="subscriptionWater" type="radio" value={Subscribe.water.NO}
+                   checked={Subscribe.water.NO === subscriptionWater}
                    onChange={this.handleSubscribeChange}/>
             Нет
           </label>
           <label>
-            <input name="subscriptionWater" type="radio" value={Subscribe.water.YES} checked={Subscribe.water.YES === subscriptionWater}
+            <input name="subscriptionWater" type="radio" value={Subscribe.water.YES}
+                   checked={Subscribe.water.YES === subscriptionWater}
                    onChange={this.handleSubscribeChange}/>
             Да
           </label>
@@ -106,12 +116,14 @@ class FormAnket extends Component {
         <div role="group">
           Канализация
           <label>
-            <input name="subscriptionSewerage" type="radio" value={Subscribe.sewerage.NO} checked={Subscribe.sewerage.NO === subscriptionSewerage}
+            <input name="subscriptionSewerage" type="radio" value={Subscribe.sewerage.NO}
+                   checked={Subscribe.sewerage.NO === subscriptionSewerage}
                    onChange={this.handleSubscribeChange}/>
             Нет
           </label>
           <label>
-            <input name="subscriptionSewerage" type="radio" value={Subscribe.sewerage.YES} checked={Subscribe.sewerage.YES === subscriptionSewerage}
+            <input name="subscriptionSewerage" type="radio" value={Subscribe.sewerage.YES}
+                   checked={Subscribe.sewerage.YES === subscriptionSewerage}
                    onChange={this.handleSubscribeChange}/>
             Да
           </label>
@@ -121,12 +133,14 @@ class FormAnket extends Component {
         <div role="group">
           Вытяжка
           <label>
-            <input name="subscriptionHood" type="radio" value={Subscribe.hood.NO} checked={Subscribe.hood.NO === subscriptionHood}
+            <input name="subscriptionHood" type="radio" value={Subscribe.hood.NO}
+                   checked={Subscribe.hood.NO === subscriptionHood}
                    onChange={this.handleSubscribeChange}/>
             Нет
           </label>
           <label>
-            <input name="subscriptionHood" type="radio" value={Subscribe.hood.YES} checked={Subscribe.hood.YES === subscriptionHood}
+            <input name="subscriptionHood" type="radio" value={Subscribe.hood.YES}
+                   checked={Subscribe.hood.YES === subscriptionHood}
                    onChange={this.handleSubscribeChange}/>
             Да
           </label>
@@ -136,12 +150,14 @@ class FormAnket extends Component {
         <div role="group">
           Склад
           <label>
-            <input name="subscriptionStock" type="radio" value={Subscribe.stock.NO} checked={Subscribe.stock.NO === subscriptionStock}
+            <input name="subscriptionStock" type="radio" value={Subscribe.stock.NO}
+                   checked={Subscribe.stock.NO === subscriptionStock}
                    onChange={this.handleSubscribeChange}/>
             Нет
           </label>
           <label>
-            <input name="subscriptionStock" type="radio" value={Subscribe.stock.YES} checked={Subscribe.stock.YES === subscriptionStock}
+            <input name="subscriptionStock" type="radio" value={Subscribe.stock.YES}
+                   checked={Subscribe.stock.YES === subscriptionStock}
                    onChange={this.handleSubscribeChange}/>
             Да
           </label>
@@ -153,7 +169,7 @@ class FormAnket extends Component {
           <input name="agreed" type="checkbox" value={areaFinish} checked={agreed} onChange={this.handleAgreedChange}/>
         </label>
         <br/>
-        <button type="submit" disabled={!agreed}>Отправить</button>
+        <button type="submit" disabled={!agreed} onClick={this.postRequest}>Отправить</button>
       </form>
     );
   }

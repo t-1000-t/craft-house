@@ -25,7 +25,7 @@ const Cart = ({ note }) => {
         {note.text &&
         <p className={stylish.textCart1}><b>{note.text}</b>&nbsp;{note.text1}<b>{note.text2}</b>{note.text3}</p>}
         {/* Start cart 2 */}
-        {note.twoText && <p className={stylish.boxTwoText}>
+        {note.twoText && <div className={stylish.boxTwoText}>
           <div className={stylish.blockTwoText1}>
             {note.twoText}&nbsp;<br/>
             {note.twoText2}&nbsp;<br/>
@@ -48,7 +48,7 @@ const Cart = ({ note }) => {
             {/*{note.twoText9}<br/>*/}
             {/*{note.twoText11}<br/>*/}
           {/*</div>*/}
-        </p>}
+        </div>}
         {note.twoText && <br/>}
         {note.twoText && <div className={stylish.boxTwoText2}>
           {note.twoText12 && <p className={stylish.blockTwoText3}>{note.twoText12}</p>} {note.twoText12 && <br/>}

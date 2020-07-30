@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import shortid from "shortid";
+// import shortid from "shortid";
 
 const Subscribe = {
   water: {
@@ -31,7 +31,8 @@ class FormAnket extends Component {
     subscriptionSewerage: "no",
     subscriptionHood: "no",
     subscriptionStock: "no",
-    agreed: false
+    agreed: false,
+    phoneNumber: ""
   };
 
 
@@ -53,21 +54,37 @@ class FormAnket extends Component {
     });
   };
 
+  postFetchMongo = async (note) => {
+    await fetch("https://craft-server.herokuapp.com/list", {
+      method: 'POST',
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(note),
+      redirect: 'follow'
+    })
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
+  };
+
   handleSubmit = (e) => {
     e.preventDefault();
 
     const note = {
-      id: shortid.generate(),
-      date: new Date(),
+      // id: shortid.generate(),
+      // date: new Date(),
       initialValue: this.state
     };
 
     console.log("NOTE", note);
+
+    this.postFetchMongo(note);
+
+
   };
 
 
   render() {
-    const { nameCompany, products, equipment, areaStart, areaFinish, subscriptionWater, subscriptionSewerage, subscriptionHood, subscriptionStock, agreed } = this.state;
+    const { nameCompany, products, equipment, areaStart, areaFinish, subscriptionWater, subscriptionSewerage, subscriptionHood, subscriptionStock, agreed, phoneNumber } = this.state;
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
@@ -164,10 +181,16 @@ class FormAnket extends Component {
         </div>
         <br/>
         <label>
+          Контактный номер телефона:<br/>
+          <input placeholder="(050)1234567" name="phoneNumber" type="phone" value={phoneNumber} onChange={this.handleChange}/>
+        </label>
+        <br/>
+        <label>
           Соглашаюсь с вышеописанной информацией:
           <br/>
-          <input name="agreed" type="checkbox" value={areaFinish} checked={agreed} onChange={this.handleAgreedChange}/>
+          <input name="agreed" type="checkbox" checked={agreed} onChange={this.handleAgreedChange}/>
         </label>
+
         <br/>
         <button type="submit" disabled={!agreed} onClick={this.postRequest}>Отправить</button>
       </form>

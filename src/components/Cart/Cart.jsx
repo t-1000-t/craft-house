@@ -1,7 +1,7 @@
 import React from "react";
 import stylish from "./Cart.module.css";
-// import Bounce from "react-reveal/Bounce";
-// import Flip from "react-reveal/Flip";
+
+
 
 const Cart = ({ note }) => {
   return (
@@ -87,8 +87,6 @@ const Cart = ({ note }) => {
           {note.threeText16}<br/>
         </p>}
       </div>}
-
-
     </>
   );
 };

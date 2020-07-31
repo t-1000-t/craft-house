@@ -3,13 +3,19 @@ import stylish from "../FooterCraft/FooterCraft.module.css";
 import { connect } from "react-redux";
 
 import { Icon } from "@iconify/react";
+import closeSharp from "@iconify/icons-ion/close-sharp";
 import callOutline from "@iconify/icons-ion/call-outline";
 import ModalAnketa from "../../modals/ModalAnketa";
 import anketAction from "../../redux/actions/anketAction/anketAction";
-// import FormAnket from "../FormAnket/FormAnket";
 import MiddleFormAnket from "../MiddleFormAnket/MiddleFormAnket";
 
-const FooterCraft = ({ note, onOpen, onOpenModal, onCloseModal }) => {
+import { ToastContainer, toast, Zoom } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { css } from "glamor";
+
+// toast.configure();
+
+const FooterCraft = ({ note, onOpen, onOpenModal, onCloseModal, notify }) => {
   return (
     <>
       {note.requisite && <footer className={stylish.footerCraft}>
@@ -33,9 +39,14 @@ const FooterCraft = ({ note, onOpen, onOpenModal, onCloseModal }) => {
         </div>
         <button className={stylish.footerBtnFont} onClick={onOpenModal}>Заполнить анкету</button>
         {onOpen && <ModalAnketa onClose={onCloseModal}>
-          <button type="button" onClick={onCloseModal}>Close</button>
-          <MiddleFormAnket />
+          <div className={stylish.btnBox}>
+            <button type="button" onClick={onCloseModal}><Icon icon={closeSharp} color="#dddee" width="35px"
+                                                               height="35px">Close</Icon></button>
+          </div>
+
+          <MiddleFormAnket openNotify={notify} onClose={onCloseModal}/>
         </ModalAnketa>}
+        <ToastContainer autoClose={2500} transition={Zoom}/>
       </footer>}
     </>
   );
@@ -52,6 +63,11 @@ const mapDispatchToProps = (dispatch) => {
     },
     onCloseModal: () => {
       dispatch(anketAction.closeModal());
+    },
+    notify: () => {
+      toast("Отправлено. Желаем продуктивного дня. ", {
+        position: toast.POSITION.TOP_CENTER
+      });
     }
   };
 };

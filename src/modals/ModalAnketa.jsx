@@ -1,5 +1,7 @@
 import React, { Component, createRef } from "react";
 import { createPortal } from "react-dom";
+import { ToastContainer, Zoom } from 'react-toastify';
+
 
 import stylish from "./ModalAnketa.module.css";
 

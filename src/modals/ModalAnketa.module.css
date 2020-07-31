@@ -12,8 +12,7 @@
 
 .modal {
     position: absolute;
-    background: rgb(91, 140, 168);
-    color: aquamarine;
+    background: #f4f3f0;
     padding: 30px;
     font-size: 18px;
     max-width: 80%;

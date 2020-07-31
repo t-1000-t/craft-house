@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-// import shortid from "shortid";
+import stylish from "./FormAnket.module.css";
+import { TextField } from "@material-ui/core";
+
+
 
 const Subscribe = {
   water: {
@@ -25,8 +28,8 @@ class FormAnket extends Component {
     nameCompany: "",
     products: "",
     equipment: "",
-    areaStart: 0,
-    areaFinish: 0,
+    areaStart: null,
+    areaFinish: null,
     subscriptionWater: "no",
     subscriptionSewerage: "no",
     subscriptionHood: "no",
@@ -56,14 +59,16 @@ class FormAnket extends Component {
 
   postFetchMongo = async (note) => {
     await fetch("https://craft-server.herokuapp.com/list", {
-      method: 'POST',
-      headers: {"Content-Type": "application/json"},
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify(note),
-      redirect: 'follow'
+      redirect: "follow"
     })
       .then(response => response.text())
-      .then(result => console.log(result))
-      .catch(error => console.log('error', error));
+      .catch(error => console.log("error", error))
+      .finally(() => {
+        this.props.openNotify();
+      });
   };
 
   handleSubmit = (e) => {
@@ -79,8 +84,35 @@ class FormAnket extends Component {
 
     this.postFetchMongo(note);
 
+    this.props.onClose();
 
   };
+
+  handleDecremareaStart = (e) => {
+    this.setState({
+      areaStart: this.state.areaStart - 1
+    })
+  };
+
+  handleIncremareaStart = (e) => {
+    this.setState({
+      areaStart: this.state.areaStart + 1
+    })
+  };
+
+  handleDecremareaFinish = (e) => {
+    this.setState({
+      areaFinish: this.state.areaFinish - 1
+    })
+  };
+
+  handleIncremareaFinish = (e) => {
+    this.setState({
+      areaFinish: this.state.areaFinish + 1
+    })
+  };
+
+
 
 
   render() {
@@ -88,111 +120,131 @@ class FormAnket extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          Название компании (юридическое или физическое лицо предприниматель):<br/>
-          <input name="nameCompany" type="name" value={nameCompany} onChange={this.handleChange}/>
+          <p className={stylish.textNameAny}>
+            Название компании (юридическое или физическое лицо предприниматель):
+          </p>
+          <br/>
+          <textarea aria-label="maximum height" rowsMin={3} name="nameCompany" type="name" value={nameCompany}
+                    onChange={this.handleChange}/>
         </label>
         <br/>
         <label>
-          Группа товаров/услуг и название, которое будет реализовываться:<br/>
-          <input name="products" type="text" value={products} onChange={this.handleChange}/>
+          <p className={stylish.textNameAny}>
+            Группа товаров/услуг и название, которое будет реализовываться:
+          </p>
+          <br/>
+          <textarea name="products" type="text" value={products} onChange={this.handleChange}/>
         </label>
         <br/>
         <label>
-          Оборудование, мощность и т.д.:<br/>
-          <input name="equipment" type="text" value={equipment} onChange={this.handleChange}/>
+          <p className={stylish.textNameAny}>
+            Оборудование, мощность и т.д.:
+          </p>
+          <br/>
+          <textarea name="equipment" type="text" value={equipment} onChange={this.handleChange}/>
         </label>
         <br/>
         <label>
-          Площадь аренды (от):<br/>
-          <input name="areaStart" type="number" value={areaStart} onChange={this.handleChange}/>
+          <p className={stylish.textNameAny}>Площадь аренды (кв.м.):</p>
+          <br/>
+          <p className={stylish.textNameAny}>от</p>&nbsp;
+          <button type="button" disabled={!areaStart} className={stylish.buttonDecrem} onClick={this.handleDecremareaStart}>–</button>
+          <input className={stylish.inputDecremIncrem} placeholder="0" name="areaStart" type="number" value={areaStart}
+                 onChange={this.handleChange}/>
+          <button type="button" className={stylish.buttonIncrem} onClick={this.handleIncremareaStart}>+</button>
         </label>
         <label>
-          до
-          <input name="areaFinish" type="number" value={areaFinish} onChange={this.handleChange}/>
-          кв. м.):
+          <br/>
+          <p className={stylish.textNameAny}>до</p>&nbsp;
+          <button type="button" disabled={!areaFinish} onClick={this.handleDecremareaFinish} className={stylish.buttonDecrem}>–</button>
+          <input className={stylish.inputDecremIncrem} placeholder="0" name="areaFinish" type="number" value={areaFinish} onChange={this.handleChange}/>
+          <button type="button" className={stylish.buttonIncrem} onClick={this.handleIncremareaFinish}>+</button>
         </label>
         <br/>
         {/*Вода*/}
         <div role="group">
-          Вода
+          <p className={stylish.textNameAny}>Вода</p>
           <label>
-            <input name="subscriptionWater" type="radio" value={Subscribe.water.NO}
+
+            <input className={stylish.optionalInputRadio} name="subscriptionWater" type="radio" value={Subscribe.water.NO}
                    checked={Subscribe.water.NO === subscriptionWater}
                    onChange={this.handleSubscribeChange}/>
-            Нет
+            <p className={stylish.textRadio}>Нет</p>
+
           </label>
           <label>
-            <input name="subscriptionWater" type="radio" value={Subscribe.water.YES}
+            <input className={stylish.optionalInputRadio} name="subscriptionWater" type="radio" value={Subscribe.water.YES}
                    checked={Subscribe.water.YES === subscriptionWater}
                    onChange={this.handleSubscribeChange}/>
-            Да
+            <p className={stylish.textRadio}> Да</p>
           </label>
         </div>
         <br/>
         {/*Канализация*/}
         <div role="group">
-          Канализация
+          <p className={stylish.textNameAny}>Канализация</p>
           <label>
-            <input name="subscriptionSewerage" type="radio" value={Subscribe.sewerage.NO}
+            <input className={stylish.optionalInputRadio} name="subscriptionSewerage" type="radio" value={Subscribe.sewerage.NO}
                    checked={Subscribe.sewerage.NO === subscriptionSewerage}
                    onChange={this.handleSubscribeChange}/>
-            Нет
+            <p className={stylish.textRadio}>Нет</p>
           </label>
           <label>
-            <input name="subscriptionSewerage" type="radio" value={Subscribe.sewerage.YES}
+            <input className={stylish.optionalInputRadio} name="subscriptionSewerage" type="radio" value={Subscribe.sewerage.YES}
                    checked={Subscribe.sewerage.YES === subscriptionSewerage}
                    onChange={this.handleSubscribeChange}/>
-            Да
+            <p className={stylish.textRadio}> Да</p>
           </label>
         </div>
         <br/>
         {/*Вытяжка*/}
         <div role="group">
-          Вытяжка
+          <p className={stylish.textNameAny}>Вытяжка</p>
           <label>
-            <input name="subscriptionHood" type="radio" value={Subscribe.hood.NO}
+            <input className={stylish.optionalInputRadio} name="subscriptionHood" type="radio" value={Subscribe.hood.NO}
                    checked={Subscribe.hood.NO === subscriptionHood}
                    onChange={this.handleSubscribeChange}/>
-            Нет
+            <p className={stylish.textRadio}> Нет</p>
           </label>
           <label>
-            <input name="subscriptionHood" type="radio" value={Subscribe.hood.YES}
+            <input className={stylish.optionalInputRadio} name="subscriptionHood" type="radio" value={Subscribe.hood.YES}
                    checked={Subscribe.hood.YES === subscriptionHood}
                    onChange={this.handleSubscribeChange}/>
-            Да
+            <p className={stylish.textRadio}> Да</p>
           </label>
         </div>
         <br/>
         {/*Склад*/}
         <div role="group">
-          Склад
+          <p className={stylish.textNameAny}>Склад</p>
           <label>
-            <input name="subscriptionStock" type="radio" value={Subscribe.stock.NO}
+            <input className={stylish.optionalInputRadio} name="subscriptionStock" type="radio" value={Subscribe.stock.NO}
                    checked={Subscribe.stock.NO === subscriptionStock}
                    onChange={this.handleSubscribeChange}/>
-            Нет
+            <p className={stylish.textRadio}> Нет</p>
           </label>
           <label>
-            <input name="subscriptionStock" type="radio" value={Subscribe.stock.YES}
+            <input className={stylish.optionalInputRadio} name="subscriptionStock" type="radio" value={Subscribe.stock.YES}
                    checked={Subscribe.stock.YES === subscriptionStock}
                    onChange={this.handleSubscribeChange}/>
-            Да
+            <p className={stylish.textRadio}> Да</p>
           </label>
         </div>
         <br/>
         <label>
-          Контактный номер телефона:<br/>
-          <input placeholder="(050)1234567" name="phoneNumber" type="phone" value={phoneNumber} onChange={this.handleChange}/>
+          <p className={stylish.textNameAny}>Контактный номер телефона:</p><br/>
+          <TextField placeholder="(050)1234567" name="phoneNumber" type="phone" value={phoneNumber}
+                     onChange={this.handleChange}/>
         </label>
         <br/>
         <label>
-          Соглашаюсь с вышеописанной информацией:
+          <p className={stylish.textRadio}>Соглашаюсь с вышеописанной информацией:</p>
           <br/>
-          <input name="agreed" type="checkbox" checked={agreed} onChange={this.handleAgreedChange}/>
+          <input className={stylish.optionalInput} name="agreed" type="checkbox" checked={agreed} onChange={this.handleAgreedChange}/>
         </label>
 
         <br/>
-        <button type="submit" disabled={!agreed} onClick={this.postRequest}>Отправить</button>
+        <button className={stylish.btnSendForm} type="submit" disabled={!agreed}>Отправить</button>
       </form>
     );
   }

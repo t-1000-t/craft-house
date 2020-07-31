@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+.textNameAny {
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
+}
+
+.textRadio {
+    display: inline-block;
+    padding: 10px;
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
+}
+
+
+.buttonDecrem,
+.buttonIncrem {
+    border: 1px solid #ccc;
+    height: 40px;
+    user-select: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    display: inline-block;
+    width: 30px;
+    line-height: 38px;
+    color: #444;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttonDecrem:hover {
+    background: #ddd
+}
+.buttonIncrem:hover {
+    background: #ddd
+}
+
+.inputDecremIncrem {
+    width: 50px;
+    height: 40px;
+    vertical-align: top;
+    text-align: center;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inputDecrem::-moz-inner-spin-button,
+.inputDecrem::-moz-outer-spin-button,
+.inputIncrem::-moz-inner-spin-button,
+.inputIncrem::-moz-outer-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/*уберает спиер для намбер инпута*/
+
+.inputDecremIncrem{
+    -moz-appearance: textfield;
+}
+
+.buttonDecrem {
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.buttonIncrem {
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.optionalInput {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    height: 40px;
+    width: 40px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+
+}
+
+
+.optionalInputRadio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    height: 40px;
+    width: 40px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+
+}
+
+
+.optionalInput:hover {
+    background: #9faab7;
+}
+
+
+.optionalInputRadio:hover {
+    background: #9faab7;
+}
+
+.optionalInput:checked {
+    background: #a67a5f;
+}
+
+
+.optionalInputRadio:checked {
+    background: #a67a5f;
+}
+
+.optionalInput:checked::before {
+    height: 40px;
+    width: 40px;
+    content: '✔';
+    display: inline-block;
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.optionalInputRadio:checked::before {
+    height: 40px;
+    width: 40px;
+    content: '✔';
+    display: inline-block;
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.optionalInput:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #a67a5f;
+    content: '';
+    display: block;
+
+}
+
+.optionalInputRadio {
+    border-radius: 50%;
+}
+
+.optionalInputRadio:after {
+    border-radius: 50%;
+}
+
+
+
+.optionalInputRadio:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #a67a5f;
+    content: '';
+    display: block;
+
+}
+
+
+.btnSendForm {
+    padding: 3%;
+    border-radius: 8px;
+    border: hsl(57, 48%, 51%) solid 2px;
+
+    margin: 3%;
+    margin-bottom: 10%;
+
+
+    line-height: 1.200;
+    /*font-family: "Roboto", sans-serif;*/
+    /*font-weight: 400;*/
+    /*font-size: calc(10px + 4 * ((100vw - 320px) / 1158));*/
+
+    color: hsl(57, 90%, 66%);
+    background-color: hsl(33, 24%, 33%);
+
+    /**/
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: calc(20px + 5 * ((100vw - 320px) / 1158));
+}
+
+.btnSendForm:hover {
+    border: #9c9287 solid 2px;
+    /*padding: 2px;*/
+    background-color: hsl(31, 10%, 57%);
+    color: hsl(264, 100%, 99%);
+}
+
+.btnSendForm:focus {
+    border: hsl(57, 48%, 51%) solid 2px;
+    /*padding: 2px;*/
+    background-color: hsl(31, 10%, 57%);
+    color: hsl(264, 100%, 99%);
+}
+
+.btnSendForm:disabled,
+.btnSendForm[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+
+/*input[type=number]::-moz-inner-spin-button,*/
+/*input[type=number]::-moz-outer-spin-button {*/
+/*-webkit-appearance: none;*/
+/*-moz-appearance: none;*/
+/*appearance: none;*/
+/*margin: 0;*/
+/*}*/
+
+/*input[type=number] {*/
+/*-moz-appearance:textfield;*/
+/*}*/
+
+textarea {
+    width: 100%;
+    height: 80px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+    border-image: none;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none solid solid none;
+    line-height: 1.4em;
+    padding: 5px 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease 0s;
+}
+
+
+textarea:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
+}

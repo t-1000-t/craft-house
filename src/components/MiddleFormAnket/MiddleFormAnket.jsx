@@ -3,9 +3,9 @@ import {connect} from "react-redux";
 import FormAnket from "../FormAnket/FormAnket";
 
 
-const MiddleFormAnket = ({ notes }) => {
+const MiddleFormAnket = ({ notes, openNotify, onClose }) => {
   return (
-    <FormAnket getNotes={notes} />
+    <FormAnket getNotes={notes} openNotify={openNotify} onClose={onClose}/>
   );
 };
 

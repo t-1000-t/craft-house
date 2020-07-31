@@ -11,9 +11,6 @@ import MiddleFormAnket from "../MiddleFormAnket/MiddleFormAnket";
 
 import { ToastContainer, toast, Zoom } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { css } from "glamor";
-
-// toast.configure();
 
 const FooterCraft = ({ note, onOpen, onOpenModal, onCloseModal, notify }) => {
   return (

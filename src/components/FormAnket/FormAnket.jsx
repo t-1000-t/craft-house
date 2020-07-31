@@ -28,8 +28,8 @@ class FormAnket extends Component {
     nameCompany: "",
     products: "",
     equipment: "",
-    areaStart: null,
-    areaFinish: null,
+    areaStart: 0,
+    areaFinish: 0,
     subscriptionWater: "no",
     subscriptionSewerage: "no",
     subscriptionHood: "no",
@@ -124,7 +124,7 @@ class FormAnket extends Component {
             Название компании (юридическое или физическое лицо предприниматель):
           </p>
           <br/>
-          <textarea aria-label="maximum height" rowsMin={3} name="nameCompany" type="name" value={nameCompany}
+          <textarea aria-label="maximum height" rowsmin={3} name="nameCompany" type="name" value={nameCompany}
                     onChange={this.handleChange}/>
         </label>
         <br/>

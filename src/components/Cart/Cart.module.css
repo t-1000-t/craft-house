@@ -287,7 +287,11 @@
 
 @media (min-width: 600px) and (max-width: 767px) {
     .fontNameCart2 {
-        padding-left: 20.3%;
+        padding-left: 18.3%;
+    }
+
+    .fontNameCart3 {
+        width: 60%;
     }
 
     .blockTwoText2 {

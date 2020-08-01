@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import stylish from "./FormAnket.module.css";
 import { TextField } from "@material-ui/core";
-
+import moment from 'moment';
 
 
 const Subscribe = {
@@ -35,7 +35,8 @@ class FormAnket extends Component {
     subscriptionHood: "no",
     subscriptionStock: "no",
     agreed: false,
-    phoneNumber: ""
+    phoneNumber: "",
+    date: moment().format('MMMM Do YYYY, h:mm:ss a'),
   };
 
 

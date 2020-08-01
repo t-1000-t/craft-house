@@ -12,10 +12,7 @@ const Cart = ({ note }) => {
         </h1>}
         {note.name1 && <h3 className={stylish.fontNameCart1}>{note.name1}</h3>}
 
-        {note.name2 && note.name3 && <div className={stylish.boxfontNameCart_23}>
-          {note.name2 && <h1 className={stylish.fontNameCart2}>
-            {note.name2}
-          </h1>}
+        {note.name3 && <div className={stylish.boxfontNameCart_23}>
           {note.name3 && <h3 className={stylish.fontNameCart3}>{note.name3}</h3>}
         </div>}
         {note.url_full && <div className={stylish.boxImgCart}>

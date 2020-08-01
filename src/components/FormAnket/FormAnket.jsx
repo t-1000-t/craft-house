@@ -60,6 +60,7 @@ class FormAnket extends Component {
 
   postFetchMongo = async (note) => {
     await fetch("https://craft-server.herokuapp.com/list", {
+    // await fetch("http://localhost:5000/list", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(note),

@@ -91,25 +91,25 @@ class FormAnket extends Component {
 
   handleDecremareaStart = (e) => {
     this.setState({
-      areaStart: this.state.areaStart - 1
+      areaStart: Number(this.state.areaStart) - 1
     })
   };
 
   handleIncremareaStart = (e) => {
     this.setState({
-      areaStart: this.state.areaStart + 1
+      areaStart: Number(this.state.areaStart) + 1
     })
   };
 
   handleDecremareaFinish = (e) => {
     this.setState({
-      areaFinish: this.state.areaFinish - 1
+      areaFinish: Number(this.state.areaFinish) - 1
     })
   };
 
   handleIncremareaFinish = (e) => {
     this.setState({
-      areaFinish: this.state.areaFinish + 1
+      areaFinish: Number(this.state.areaFinish) + 1
     })
   };
 

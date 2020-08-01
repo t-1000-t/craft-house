@@ -53,20 +53,16 @@
     margin-bottom: 5px;
 }
 
-.inputDecrem::-moz-inner-spin-button,
-.inputDecrem::-moz-outer-spin-button,
-.inputIncrem::-moz-inner-spin-button,
-.inputIncrem::-moz-outer-spin-button{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0;
-}
-
 /*уберает спиер для намбер инпута*/
 
 .inputDecremIncrem{
     -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .buttonDecrem {

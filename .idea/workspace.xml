@@ -14,31 +14,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/FormAnket/FormAnket.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2821">
-              <caret line="61" column="56" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="56" />
+            <state relative-caret-position="238">
+              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/db.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+            <state relative-caret-position="219">
+              <caret line="27" column="129" selection-start-line="27" selection-start-column="129" selection-end-line="27" selection-end-column="129" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -49,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="14" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="14" />
+            <state relative-caret-position="-3570">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -120,12 +111,12 @@
         <option value="$PROJECT_DIR$/src/modals/ModalAnketa.module.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/modals/ModalAnketa.jsx" />
-        <option value="$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx" />
         <option value="$PROJECT_DIR$/src/components/FormAnket/FormAnket.module.css" />
         <option value="$PROJECT_DIR$/src/components/FormAnket/FormAnket.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Cart/Cart.module.css" />
         <option value="$PROJECT_DIR$/src/db/db.json" />
         <option value="$PROJECT_DIR$/src/components/Cart/Cart.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Cart/Cart.module.css" />
+        <option value="$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx" />
       </list>
     </option>
   </component>
@@ -164,14 +155,7 @@
               <item name="craft-house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="craft-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="FormAnket" type="462c0819:PsiDirectoryNode" />
+              <item name="FooterCraft" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="craft-house" type="b2602c69:ProjectViewProjectNode" />
@@ -234,12 +218,13 @@
       <workItem from="1596206051033" duration="4150000" />
       <workItem from="1596211180343" duration="227000" />
       <workItem from="1596268755354" duration="4210000" />
-      <workItem from="1596278896026" duration="1739000" />
+      <workItem from="1596278896026" duration="2205000" />
+      <workItem from="1596358126115" duration="732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175949000" />
+    <option name="totallyTimeSpent" value="177147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,24 +438,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FormAnket/FormAnket.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
@@ -481,34 +452,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FormAnket/FormAnket.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3570">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-584">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/FormAnket/FormAnket.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2821">
-          <caret line="61" column="56" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="56" />
+        <state relative-caret-position="-2839">
+          <caret line="61" column="56" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="56" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="14" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Cart/Cart.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="238">
           <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FooterCraft/FooterCraft.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="27" column="129" selection-start-line="27" selection-start-column="129" selection-end-line="27" selection-end-column="129" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

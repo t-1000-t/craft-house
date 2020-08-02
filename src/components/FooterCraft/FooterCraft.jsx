@@ -23,11 +23,9 @@ const FooterCraft = ({ note, onOpen, onOpenModal, onCloseModal, notify }) => {
           <div className={stylish.contactPhone}>
             {note.requisiteText && <p className={stylish.textRequisite}>{note.requisiteText}</p>}
             {note.requisiteText &&
-            <p className={stylish.textRequisiteNumber}><Icon icon={callOutline} color="#77bb42"/> 1234567890123</p>}
+            <p className={stylish.textRequisiteNumber}><a href="tel:+380685808763"><Icon icon={callOutline} color="#77bb42"/></a><a href="tel:+380685808763"> 068 580-87-63</a></p>}
             {note.requisiteText &&
-            <p className={stylish.textRequisiteNumber}><Icon icon={callOutline} color="#77bb42"/> 1234567890123</p>}
-            {note.requisiteText &&
-            <p className={stylish.textRequisiteNumber}><Icon icon={callOutline} color="#77bb42"/> 1234567890123</p>}
+            <p className={stylish.textRequisiteNumber}><a href="tel:+380685808763"><Icon icon={callOutline} color="#77bb42"/></a><a href="tel:+380508437650"> 050 843-76-50</a></p>}
           </div>
           <div className={stylish.contactPhone}>
             {note.requisiteText &&
